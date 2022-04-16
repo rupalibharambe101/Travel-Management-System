@@ -1,0 +1,1266 @@
+## Source Code##
+
+package Mypackage;
+public class FirstFrame extends javax.swing.JFrame {
+
+    public FirstFrame() {
+        initComponents();
+       CommonFunction. addLabelBackground(lbl1,"D:\\OneDrive\\Documents\\NetBeansProjects\\TravelManPro\\src\\main\\java\\Mypackage\\image\\img11.png");
+   
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        btnlogout = new javax.swing.JButton();
+        btncancelfl = new javax.swing.JButton();
+        btnbookfl = new javax.swing.JButton();
+        btnregi = new javax.swing.JButton();
+        btnaddd = new javax.swing.JButton();
+        btnreceipt = new javax.swing.JButton();
+        lbl = new javax.swing.JLabel();
+        lbl1 = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnlogout.setBackground(new java.awt.Color(0, 0, 255));
+        btnlogout.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnlogout.setForeground(new java.awt.Color(0, 0, 0));
+        btnlogout.setText("LogOut");
+        btnlogout.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnlogoutActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnlogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 610, 120, 50));
+
+        btncancelfl.setBackground(new java.awt.Color(0, 0, 255));
+        btncancelfl.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btncancelfl.setForeground(new java.awt.Color(0, 0, 0));
+        btncancelfl.setText("Cancel Ticket");
+        btncancelfl.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btncancelflActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btncancelfl, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 456, 170, 50));
+
+        btnbookfl.setBackground(new java.awt.Color(0, 0, 255));
+        btnbookfl.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnbookfl.setForeground(new java.awt.Color(0, 0, 0));
+        btnbookfl.setText("Book Ticket");
+        btnbookfl.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbookflActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnbookfl, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 386, 170, 50));
+
+        btnregi.setBackground(new java.awt.Color(0, 0, 255));
+        btnregi.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnregi.setForeground(new java.awt.Color(0, 0, 0));
+        btnregi.setText("Registration");
+        btnregi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnregiActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnregi, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 170, 50));
+
+        btnaddd.setBackground(new java.awt.Color(0, 0, 255));
+        btnaddd.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnaddd.setForeground(new java.awt.Color(0, 0, 0));
+        btnaddd.setText("User Details");
+        btnaddd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnadddActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnaddd, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, 170, 50));
+
+        btnreceipt.setBackground(new java.awt.Color(0, 0, 255));
+        btnreceipt.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnreceipt.setForeground(new java.awt.Color(0, 0, 0));
+        btnreceipt.setText("Receipt");
+        btnreceipt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnreceiptActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnreceipt, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 520, 170, 50));
+
+        lbl.setBackground(new java.awt.Color(255, 255, 255));
+        lbl.setFont(new java.awt.Font("Serif", 1, 36)); // NOI18N
+        lbl.setForeground(new java.awt.Color(255, 0, 0));
+        lbl.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl.setText("Travel Management System");
+        jPanel1.add(lbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 40, 560, 50));
+        jPanel1.add(lbl1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, 710));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, 710));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>                        
+
+    private void btnlogoutActionPerformed(java.awt.event.ActionEvent evt) {                                          
+       this.dispose();
+    }                                         
+
+    private void btnregiActionPerformed(java.awt.event.ActionEvent evt) {                                        
+  
+          registration obj=new registration();
+          obj.setVisible(true);
+          
+    }                                       
+
+    private void btnbookflActionPerformed(java.awt.event.ActionEvent evt) {                                          
+       
+          bookfl obj=new bookfl();
+          obj.setVisible(true);
+    }                                         
+
+    private void btncancelflActionPerformed(java.awt.event.ActionEvent evt) {                                            
+    
+          cancelfl obj=new cancelfl();
+          obj.setVisible(true);
+    }                                           
+
+    private void btnadddActionPerformed(java.awt.event.ActionEvent evt) {                                        
+
+          user obj=new user();
+          obj.setVisible(true);
+    }                                       
+
+    private void btnreceiptActionPerformed(java.awt.event.ActionEvent evt) {                                           
+      receipt obj=new receipt();
+      obj.setVisible(true);
+    }                                          
+
+    public static void main(String args[]) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new FirstFrame().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnaddd;
+    private javax.swing.JButton btnbookfl;
+    private javax.swing.JButton btncancelfl;
+    private javax.swing.JButton btnlogout;
+    private javax.swing.JButton btnreceipt;
+    private javax.swing.JButton btnregi;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lbl;
+    private javax.swing.JLabel lbl1;
+    // End of variables declaration                   
+}
+
+Registration code
+
+
+package Mypackage;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+public class registration extends javax.swing.JFrame {
+    public registration() {
+        initComponents();
+        CommonFunction. addLabelBackground(lbl2,"D:\\OneDrive\\Documents\\NetBeansProjects\\TravelManPro\\src\\main\\java\\Mypackage\\image\\image5.png");
+        
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        lblpass = new javax.swing.JLabel();
+        lbluser = new javax.swing.JLabel();
+        txtuser = new javax.swing.JTextField();
+        txtpass = new javax.swing.JTextField();
+        btnlogin = new javax.swing.JButton();
+        lbl2 = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.setBackground(new java.awt.Color(0, 0, 255));
+        jButton1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jButton1.setText("Close");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 250, 120, 40));
+
+        lblpass.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblpass.setText("Password :");
+        jPanel1.add(lblpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, 140, 40));
+
+        lbluser.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lbluser.setText("Username :");
+        jPanel1.add(lbluser, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 90, 140, 40));
+
+        txtuser.setBackground(new java.awt.Color(255, 255, 255));
+        txtuser.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
+        txtuser.setForeground(new java.awt.Color(0, 0, 0));
+        txtuser.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtuser, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 80, 170, 40));
+
+        txtpass.setBackground(new java.awt.Color(255, 255, 255));
+        txtpass.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
+        txtpass.setForeground(new java.awt.Color(0, 0, 0));
+        txtpass.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 160, 170, 40));
+
+        btnlogin.setBackground(new java.awt.Color(0, 0, 255));
+        btnlogin.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnlogin.setText("LogIn");
+        btnlogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnloginActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnlogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, 120, 40));
+        jPanel1.add(lbl2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 410));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 410));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>                        
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+       this.dispose();
+       
+    }                                        
+
+    private void btnloginActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        String username,password;
+           username=txtuser.getText();
+           password=txtpass.getText();
+           String query="INSERT INTO `practice2`.`login` ( `username`, `password`) VALUES (' " + username+ " ',' "+password+" ')";
+           try
+           {
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/practice2","Akshata","Akshata#11");
+            Statement st=con.createStatement();
+           st.executeUpdate(query);
+           JOptionPane.showMessageDialog(btnlogin,"Records added sucessfully");
+               
+           }
+           catch(Exception e)
+           {
+               JOptionPane.showMessageDialog(null,"error"+e);
+           }
+           txtuser.setText(" ");
+           txtpass.setText(" ");
+    }                                        
+
+    public static void main(String args[]) {
+      
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new registration().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnlogin;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lbl2;
+    private javax.swing.JLabel lblpass;
+    private javax.swing.JLabel lbluser;
+    private javax.swing.JTextField txtpass;
+    private javax.swing.JTextField txtuser;
+    // End of variables declaration                   
+}
+
+Bookflight code
+
+package Mypackage;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.text.DateFormat;
+import java.util.Date;
+import javax.swing.JOptionPane;
+public class bookfl extends javax.swing.JFrame {
+    public bookfl() {
+        initComponents();
+    CommonFunction. addLabelBackground(lbl,"D:\\OneDrive\\Documents\\NetBeansProjects\\TravelManPro\\src\\main\\java\\Mypackage\\image\\image5.png");
+        
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jPopupMenu1 = new javax.swing.JPopupMenu();
+        testDayPicker1 = new com.qt.datapicker.TestDayPicker();
+        testDayPicker2 = new com.qt.datapicker.TestDayPicker();
+        testDayPicker3 = new com.qt.datapicker.TestDayPicker();
+        testDayPicker4 = new com.qt.datapicker.TestDayPicker();
+        testDayPicker5 = new com.qt.datapicker.TestDayPicker();
+        testDayPicker6 = new com.qt.datapicker.TestDayPicker();
+        testDayPicker7 = new com.qt.datapicker.TestDayPicker();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        txtsource = new javax.swing.JTextField();
+        txtid = new javax.swing.JTextField();
+        txtdestination = new javax.swing.JTextField();
+        cmbchooseflight = new javax.swing.JComboBox<>();
+        btntotal = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        txtduration = new javax.swing.JTextField();
+        datechooser = new com.toedter.calendar.JDateChooser();
+        btnadd = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        cmbaccomodation = new javax.swing.JComboBox<>();
+        jLabel9 = new javax.swing.JLabel();
+        cmbflight = new javax.swing.JComboBox<>();
+        jLabel10 = new javax.swing.JLabel();
+        cmbticket = new javax.swing.JComboBox<>();
+        jLabel11 = new javax.swing.JLabel();
+        txttotal = new javax.swing.JTextField();
+        btnpay = new javax.swing.JButton();
+        btnpay1 = new javax.swing.JButton();
+        lbl = new javax.swing.JLabel();
+
+        jMenuItem1.setText("jMenuItem1");
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel2.setText(" Flight ID :");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 140, 20));
+
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setText("Choose Flight :");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, 160, 20));
+
+        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel4.setText("Source:");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 140, 20));
+
+        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel5.setText("Total :");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 230, 160, 30));
+
+        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setText("Date :");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 40, 140, -1));
+
+        txtsource.setBackground(new java.awt.Color(255, 255, 255));
+        txtsource.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txtsource.setForeground(new java.awt.Color(0, 0, 0));
+        txtsource.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtsource, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, 170, 30));
+
+        txtid.setBackground(new java.awt.Color(255, 255, 255));
+        txtid.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txtid.setForeground(new java.awt.Color(0, 0, 0));
+        txtid.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 170, 30));
+
+        txtdestination.setBackground(new java.awt.Color(255, 255, 255));
+        txtdestination.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txtdestination.setForeground(new java.awt.Color(0, 0, 0));
+        txtdestination.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtdestination, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 180, 170, 30));
+
+        cmbchooseflight.setBackground(new java.awt.Color(255, 255, 255));
+        cmbchooseflight.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        cmbchooseflight.setForeground(new java.awt.Color(0, 0, 0));
+        cmbchooseflight.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "AirAsia", "IndiGo", "Air India", "Vistara", "Alliance Air " }));
+        cmbchooseflight.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbchooseflightActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cmbchooseflight, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 80, 170, 30));
+
+        btntotal.setBackground(new java.awt.Color(0, 0, 255));
+        btntotal.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btntotal.setText("Total");
+        btntotal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btntotalActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btntotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 340, 130, 40));
+
+        jLabel7.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel7.setText("Destination :");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 140, 20));
+
+        txtduration.setBackground(new java.awt.Color(255, 255, 255));
+        txtduration.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txtduration.setForeground(new java.awt.Color(0, 0, 0));
+        txtduration.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtduration, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 230, 170, 30));
+
+        datechooser.setBackground(new java.awt.Color(255, 255, 255));
+        datechooser.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel1.add(datechooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 30, 170, 30));
+
+        btnadd.setBackground(new java.awt.Color(0, 0, 255));
+        btnadd.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnadd.setText("Add");
+        btnadd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnaddActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, 130, 40));
+
+        jLabel8.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel8.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel8.setText("Duration :");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 140, 20));
+
+        cmbaccomodation.setBackground(new java.awt.Color(255, 255, 255));
+        cmbaccomodation.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        cmbaccomodation.setForeground(new java.awt.Color(0, 0, 0));
+        cmbaccomodation.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "None", "single", "double ", "extra" }));
+        jPanel1.add(cmbaccomodation, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 80, 170, 30));
+
+        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel9.setText("Accomodation :");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, 30));
+
+        cmbflight.setBackground(new java.awt.Color(255, 255, 255));
+        cmbflight.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        cmbflight.setForeground(new java.awt.Color(0, 0, 0));
+        cmbflight.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "standard", "economy", "first class" }));
+        jPanel1.add(cmbflight, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 130, 170, 30));
+
+        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel10.setText("Flight :");
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, 30));
+
+        cmbticket.setBackground(new java.awt.Color(255, 255, 255));
+        cmbticket.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        cmbticket.setForeground(new java.awt.Color(0, 0, 0));
+        cmbticket.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "single", "return" }));
+        jPanel1.add(cmbticket, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 180, 170, 30));
+
+        jLabel11.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel11.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel11.setText("Ticket :");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 160, 30));
+
+        txttotal.setBackground(new java.awt.Color(255, 255, 255));
+        txttotal.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txttotal.setForeground(new java.awt.Color(0, 0, 0));
+        txttotal.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txttotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 229, 170, 30));
+
+        btnpay.setBackground(new java.awt.Color(0, 0, 255));
+        btnpay.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnpay.setText("Pay");
+        btnpay.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnpayActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnpay, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 340, 130, 40));
+
+        btnpay1.setBackground(new java.awt.Color(0, 0, 255));
+        btnpay1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnpay1.setText("Back");
+        btnpay1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnpay1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnpay1, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 340, 130, 40));
+        jPanel1.add(lbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(-6, 0, 910, 440));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 440));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>                        
+
+    private void cmbchooseflightActionPerformed(java.awt.event.ActionEvent evt) {                                                
+        // TODO add your handling code here:
+    }                                               
+
+    private void btntotalActionPerformed(java.awt.event.ActionEvent evt) {                                         
+            if(cmbchooseflight.getSelectedItem()=="AirAsia")
+            {
+                  txttotal.setText("5000");
+            }
+             if(cmbchooseflight.getSelectedItem()=="IndiGo")
+            {
+                  txttotal.setText("6000");
+            }
+              if(cmbchooseflight.getSelectedItem()=="Air India")
+            {
+                  txttotal.setText("7000");
+            }
+              if(cmbchooseflight.getSelectedItem()=="Vistara")
+            {
+                  txttotal.setText("5500");
+            }
+              if(cmbchooseflight.getSelectedItem()=="Alliance Air ")
+            {
+                  txttotal.setText("9000");
+            }
+    }                                        
+
+    private void btnaddActionPerformed(java.awt.event.ActionEvent evt) {                                       
+      String id,chooseflight,source,destination,duration,accomodation,flight,ticket,total;
+           id=txtid.getText();
+        chooseflight =(String) cmbchooseflight.getSelectedItem();
+         accomodation =(String) cmbaccomodation.getSelectedItem();
+        flight =(String) cmbflight.getSelectedItem();
+        ticket =(String) cmbticket.getSelectedItem();
+          source=txtsource.getText();
+          destination=txtdestination.getText();
+          duration=txtduration.getText();
+          total=txttotal.getText();
+          Date d=(Date)datechooser.getDate();
+          DateFormat dt=DateFormat.getDateInstance();
+          String dstring=dt.format(d);
+          
+           String query="INSERT INTO `practice2`.`book_flight` (`id`, `chooseflight`, `source`, `destination`, `duration`, `date`,`accomodation`, `flight`, `ticket`,`total`) VALUES (' " + id+ " ',' "+ chooseflight+" ',' " +source+ " ',' " +destination+ " ',' " +duration+ " ',' " + dstring+ " ',' " +accomodation+ " ',' " +flight+ " ',' " +ticket+ " ',' " +total+ " ')";
+       
+
+           try
+           {
+               
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/practice2","Akshata","Akshata#11");
+            Statement st=con.createStatement();
+           st.executeUpdate(query);
+           JOptionPane.showMessageDialog(this,"Records added sucessfully");
+               
+           }
+           catch(Exception e)
+           {
+               JOptionPane.showMessageDialog(null,"error"+e);
+           }
+         
+    }                                      
+
+    private void btnpayActionPerformed(java.awt.event.ActionEvent evt) {                                       
+        btnpay.setText("Paid");
+        txtid.setText("  ");
+        txtsource.setText("   ");
+        txtdestination.setText(" ");
+        txtduration.setText("  ");
+        txttotal.setText("  ");
+        cmbchooseflight.setSelectedItem("  ");
+        cmbaccomodation.setSelectedItem("  ");
+        cmbticket.setSelectedItem("  ");
+        cmbflight.setSelectedItem("  ");
+        datechooser.setDateFormatString("  ");
+    }                                      
+
+    private void btnpay1ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        this.dispose();
+    }                                       
+
+    public static void main(String args[]) {
+       
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(bookfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(bookfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(bookfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(bookfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new bookfl().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnadd;
+    private javax.swing.JButton btnpay;
+    private javax.swing.JButton btnpay1;
+    private javax.swing.JButton btntotal;
+    private javax.swing.JComboBox<String> cmbaccomodation;
+    private javax.swing.JComboBox<String> cmbchooseflight;
+    private javax.swing.JComboBox<String> cmbflight;
+    private javax.swing.JComboBox<String> cmbticket;
+    private com.toedter.calendar.JDateChooser datechooser;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPopupMenu jPopupMenu1;
+    private javax.swing.JLabel lbl;
+    private com.qt.datapicker.TestDayPicker testDayPicker1;
+    private com.qt.datapicker.TestDayPicker testDayPicker2;
+    private com.qt.datapicker.TestDayPicker testDayPicker3;
+    private com.qt.datapicker.TestDayPicker testDayPicker4;
+    private com.qt.datapicker.TestDayPicker testDayPicker5;
+    private com.qt.datapicker.TestDayPicker testDayPicker6;
+    private com.qt.datapicker.TestDayPicker testDayPicker7;
+    private javax.swing.JTextField txtdestination;
+    private javax.swing.JTextField txtduration;
+    private javax.swing.JTextField txtid;
+    private javax.swing.JTextField txtsource;
+    private javax.swing.JTextField txttotal;
+    // End of variables declaration                   
+}
+--------------------------------------------------------------------------------------
+Cancel flight code
+
+package Mypackage;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+public class cancelfl extends javax.swing.JFrame {
+public int flag=0;
+    public cancelfl() {
+        initComponents();
+        CommonFunction. addLabelBackground(lbl,"D:\\OneDrive\\Documents\\NetBeansProjects\\TravelManPro\\src\\main\\java\\Mypackage\\image\\image5.png");
+        
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        btnback = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        txtid = new javax.swing.JTextField();
+        btnsearch = new javax.swing.JButton();
+        lbl = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnback.setBackground(new java.awt.Color(0, 0, 255));
+        btnback.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnback.setText("Back");
+        btnback.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbackActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnback, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 130, 40));
+
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setText("Enter Flight ID :");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 210, 30));
+
+        txtid.setBackground(new java.awt.Color(255, 255, 255));
+        txtid.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
+        txtid.setForeground(new java.awt.Color(0, 0, 0));
+        txtid.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txtid.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtidActionPerformed(evt);
+            }
+        });
+        jPanel1.add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 60, 160, 30));
+
+        btnsearch.setBackground(new java.awt.Color(0, 0, 204));
+        btnsearch.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnsearch.setText("Cancel");
+        btnsearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnsearchActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 120, 40));
+        jPanel1.add(lbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 310));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 310));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>                        
+
+    private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {                                        
+      this.dispose();
+    }                                       
+
+    private void txtidActionPerformed(java.awt.event.ActionEvent evt) {                                      
+       
+    }                                     
+
+    private void btnsearchActionPerformed(java.awt.event.ActionEvent evt) {                                          
+          
+        String query="DELETE FROM `practice2`.`book_flight` WHERE (id="+Integer.parseInt(txtid.getText())+")";
+        try
+        {
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/practice2","Akshata","Akshata#11");
+            Statement st=con.createStatement();
+           st.executeUpdate(query);
+         
+           JOptionPane.showMessageDialog(null,"Records deleted sucessfully");
+         
+        }
+        catch(Exception e)
+        {
+           
+            JOptionPane.showMessageDialog(null,"Connection Error");
+            
+        }
+        txtid.setText(" ");
+    }                                         
+
+    public static void main(String args[]) {
+        
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(cancelfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(cancelfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(cancelfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(cancelfl.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+       
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new cancelfl().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnback;
+    private javax.swing.JButton btnsearch;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lbl;
+    private javax.swing.JTextField txtid;
+    // End of variables declaration                   
+}
+User code
+
+package Mypackage;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+
+public class user extends javax.swing.JFrame {
+
+    public user() {
+        initComponents();
+        CommonFunction. addLabelBackground(lbl6,"D:\\OneDrive\\Documents\\NetBeansProjects\\TravelManPro\\src\\main\\java\\Mypackage\\image\\image5.png");
+        
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        lbl5 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        lblid = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        btnadd = new javax.swing.JButton();
+        lblid1 = new javax.swing.JLabel();
+        lblid2 = new javax.swing.JLabel();
+        lblid3 = new javax.swing.JLabel();
+        lblid4 = new javax.swing.JLabel();
+        txtaadharno = new javax.swing.JTextField();
+        txtfname = new javax.swing.JTextField();
+        txtlname = new javax.swing.JTextField();
+        txtaddress = new javax.swing.JTextField();
+        txtmobileno = new javax.swing.JTextField();
+        lblid5 = new javax.swing.JLabel();
+        txtemail = new javax.swing.JTextField();
+        txtid = new javax.swing.JTextField();
+        lblid6 = new javax.swing.JLabel();
+        lbl6 = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lblid.setBackground(new java.awt.Color(255, 255, 255));
+        lblid.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblid.setForeground(new java.awt.Color(0, 0, 0));
+        lblid.setText("Enter id:");
+        jPanel1.add(lblid, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 150, 30));
+
+        jButton1.setBackground(new java.awt.Color(0, 0, 255));
+        jButton1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jButton1.setText("Back");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 360, 110, 40));
+
+        btnadd.setBackground(new java.awt.Color(0, 0, 255));
+        btnadd.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnadd.setText("ADD");
+        btnadd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnaddActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 360, 110, 40));
+
+        lblid1.setBackground(new java.awt.Color(255, 255, 255));
+        lblid1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblid1.setForeground(new java.awt.Color(0, 0, 0));
+        lblid1.setText("Enter Aadhar no :");
+        jPanel1.add(lblid1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 280, 180, 30));
+
+        lblid2.setBackground(new java.awt.Color(255, 255, 255));
+        lblid2.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblid2.setForeground(new java.awt.Color(0, 0, 0));
+        lblid2.setText("Enter Lname :");
+        jPanel1.add(lblid2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, 150, 30));
+
+        lblid3.setBackground(new java.awt.Color(255, 255, 255));
+        lblid3.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblid3.setForeground(new java.awt.Color(0, 0, 0));
+        lblid3.setText("Enter Address :");
+        jPanel1.add(lblid3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, 170, 30));
+
+        lblid4.setBackground(new java.awt.Color(255, 255, 255));
+        lblid4.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblid4.setForeground(new java.awt.Color(0, 0, 0));
+        lblid4.setText("Enter Mobile no :");
+        jPanel1.add(lblid4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 200, 180, 30));
+
+        txtaadharno.setBackground(new java.awt.Color(255, 255, 255));
+        txtaadharno.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtaadharno.setForeground(new java.awt.Color(0, 0, 0));
+        txtaadharno.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtaadharno, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 280, 190, 30));
+
+        txtfname.setBackground(new java.awt.Color(255, 255, 255));
+        txtfname.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtfname.setForeground(new java.awt.Color(0, 0, 0));
+        txtfname.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtfname, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 80, 190, 30));
+
+        txtlname.setBackground(new java.awt.Color(255, 255, 255));
+        txtlname.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtlname.setForeground(new java.awt.Color(0, 0, 0));
+        txtlname.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txtlname.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtlnameActionPerformed(evt);
+            }
+        });
+        jPanel1.add(txtlname, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 120, 190, 30));
+
+        txtaddress.setBackground(new java.awt.Color(255, 255, 255));
+        txtaddress.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtaddress.setForeground(new java.awt.Color(0, 0, 0));
+        txtaddress.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtaddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 160, 190, 30));
+
+        txtmobileno.setBackground(new java.awt.Color(255, 255, 255));
+        txtmobileno.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtmobileno.setForeground(new java.awt.Color(0, 0, 0));
+        txtmobileno.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtmobileno, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 200, 190, 30));
+
+        lblid5.setBackground(new java.awt.Color(255, 255, 255));
+        lblid5.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblid5.setForeground(new java.awt.Color(0, 0, 0));
+        lblid5.setText("Enter Email Id :");
+        jPanel1.add(lblid5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 240, 180, 30));
+
+        txtemail.setBackground(new java.awt.Color(255, 255, 255));
+        txtemail.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtemail.setForeground(new java.awt.Color(0, 0, 0));
+        txtemail.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 240, 190, 30));
+
+        txtid.setBackground(new java.awt.Color(255, 255, 255));
+        txtid.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtid.setForeground(new java.awt.Color(0, 0, 0));
+        txtid.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 40, 190, 30));
+
+        lblid6.setBackground(new java.awt.Color(255, 255, 255));
+        lblid6.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblid6.setForeground(new java.awt.Color(0, 0, 0));
+        lblid6.setText("Enter Fname:");
+        jPanel1.add(lblid6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 150, 30));
+        jPanel1.add(lbl6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 450));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 450));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>                        
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+      this.dispose();
+      
+    }                                        
+
+    private void btnaddActionPerformed(java.awt.event.ActionEvent evt) {                                       
+      String id,fname,lname,address,mobileno,email,aadharno;
+    
+          id=txtid.getText();
+           fname=txtfname.getText();
+          lname=txtlname.getText();
+          address=txtaddress.getText();
+          mobileno=txtmobileno.getText();
+          email=txtemail.getText();
+          aadharno=txtaadharno.getText();
+           String query="INSERT INTO `practice2`.`user detailes` (`id`,`fname`, `lname`, `address`, `mobileno`, `email`, `aadharno`) VALUES (' " + id+ " ',' " + fname+ " ',' "+ lname+" ',' " +address+ " ',' " + mobileno+ " ',' " +email+ " ',' " + aadharno+ " ')";
+       
+
+           try
+           {
+               
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/practice2","Akshata","Akshata#11");
+            Statement st=con.createStatement();
+           st.executeUpdate(query);
+           JOptionPane.showMessageDialog(this,"Records added sucessfully");
+               
+           }
+           catch(Exception e)
+           {
+               JOptionPane.showMessageDialog(null,"error"+e);
+           }
+           txtid.setText(" ");
+            txtid.setText(" ");
+           txtfname.setText(" ");
+          txtlname.setText(" ");
+          txtaddress.setText(" ");
+         txtmobileno.setText(" ");
+          txtemail.setText(" ");
+          txtaadharno.setText(" ");
+    }                                      
+
+    private void txtlnameActionPerformed(java.awt.event.ActionEvent evt) {                                         
+       
+    }                                        
+
+    public static void main(String args[]) {
+        
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(user.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(user.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(user.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(user.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+       
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new user().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnadd;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lbl5;
+    private javax.swing.JLabel lbl6;
+    private javax.swing.JLabel lblid;
+    private javax.swing.JLabel lblid1;
+    private javax.swing.JLabel lblid2;
+    private javax.swing.JLabel lblid3;
+    private javax.swing.JLabel lblid4;
+    private javax.swing.JLabel lblid5;
+    private javax.swing.JLabel lblid6;
+    private javax.swing.JTextField txtaadharno;
+    private javax.swing.JTextField txtaddress;
+    private javax.swing.JTextField txtemail;
+    private javax.swing.JTextField txtfname;
+    private javax.swing.JTextField txtid;
+    private javax.swing.JTextField txtlname;
+    private javax.swing.JTextField txtmobileno;
+    // End of variables declaration                   
+}
+Receipt code
+
+package Mypackage;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+public class receipt extends javax.swing.JFrame {
+
+    public receipt() {
+        initComponents();
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        btnreceipt = new javax.swing.JButton();
+        txtid = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txtreceipt = new javax.swing.JTextArea();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.setBackground(new java.awt.Color(0, 0, 204));
+        jButton1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jButton1.setText("Exit");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 450, 120, 40));
+
+        btnreceipt.setBackground(new java.awt.Color(0, 0, 204));
+        btnreceipt.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        btnreceipt.setText("Receipt");
+        btnreceipt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnreceiptActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnreceipt, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 450, 120, 40));
+
+        txtid.setBackground(new java.awt.Color(255, 255, 255));
+        txtid.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        txtid.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel1.add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 60, 140, 30));
+
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setText("Enter ID :");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, 130, 30));
+
+        txtreceipt.setBackground(new java.awt.Color(255, 255, 255));
+        txtreceipt.setColumns(20);
+        txtreceipt.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        txtreceipt.setForeground(new java.awt.Color(0, 0, 0));
+        txtreceipt.setRows(5);
+        txtreceipt.setText("\n");
+        jScrollPane1.setViewportView(txtreceipt);
+
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 128, 320, 310));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 550, 520));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>                        
+
+    private void btnreceiptActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        
+        try
+        {
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/practice2","Akshata","Akshata#11");
+            Statement st=con.createStatement();
+            Statement st1=con.createStatement();
+            String query="SELECT * FROM `practice2`.`user detailes` WHERE (id="+Integer.parseInt(txtid.getText())+")";
+            ResultSet rs;
+            rs=st.executeQuery(query);
+          
+            if(rs.first())
+            {
+                String fname,lname,address,mobileno,email,total;
+                fname=rs.getString("fname");
+                lname=rs.getString("lname");
+                address=rs.getString("address");
+                mobileno=rs.getString("mobileno");
+                email=rs.getString("email");
+       
+                 int num1;    
+                String ref ="";        
+                num1 = 1325 + (int) (Math.random()*4238);
+                ref += num1 + 1325;
+                txtreceipt.setText("        Travel Management System:\n\n"
+            +"Ref:\t" + ref
+            + "\n------------------------------------------------------"
+            +"\nName:\t" + fname
+            +"\nSurname:\t" + lname
+            +"\nAddress:\t"+ address
+            +"\nTelephone:\t"+ mobileno
+            +"\nEmail:\t"+ email
+            +"\nTotal:\t"+ 5000
+            +"\n-------------------------------------------------------"
+            +"\n\nThanks for Using \nTravel Management System"
+        );
+            }
+         else
+            {
+                 JOptionPane.showMessageDialog(btnreceipt,"No Such Records Found");
+        
+            }
+       
+        }
+        catch(Exception e)
+        {
+           
+            JOptionPane.showMessageDialog(this," Error"+e);
+            
+        }
+    }                                          
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+       this.dispose();
+    }                                        
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(receipt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(receipt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(receipt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(receipt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new receipt().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnreceipt;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextField txtid;
+    private javax.swing.JTextArea txtreceipt;
+    // End of variables declaration                   
+}
+
